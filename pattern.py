@@ -1,9 +1,8 @@
-rows=int(input("enter the number of row:"))
-for i in range(rows):
-
-    for j in range(1,i+2):
+rows = int(input("enter the number of rows:"))
+for i in range(0, rows):
+    
+    for j in range(0, i + 1):
         
-        print(j/10,end=" ")
-       
-    print("\n")
-
+        print("&", end=' ')
+   
+    print("\r")
